@@ -1,18 +1,18 @@
 | Supported Targets | ESP32 |
 | ----------------- | ----- |
 
-A2DP-SOURCE EXAMPLE
+CubeBL
 ========================
 
-Example of A2DP audio source role
+The CubeBL uses A2DP audio source role
 
-This is the example of using Advanced Audio Distribution Profile (A2DP) APIs to transmit audio stream. Application can take advantage of this example to implement portable audio players or microphones to transmit audio stream to A2DP sink devices.
+Briefly we are using Advanced Audio Distribution Profile (A2DP) APIs to transmit audio stream.
 
 ## How to use this example
 
 ### Hardware Required
 
-This example is able to run on any commonly available ESP32 development board, and is supposed to connect to [A2DP sink example](../a2dp_sink) in ESP-IDF.
+This example is able to run on any commonly available ESP32 development board, and is supposed to connect to ReceiverBL or any third-party bluetooth speakers.
 
 ### Configure the project
 
